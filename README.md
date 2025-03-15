@@ -21,7 +21,7 @@ The website is built with modern HTML, CSS, and JavaScript, featuring:
 1. **Hero Section** - Introduction to AgentFence
 2. **Key Features** - Highlighting the main capabilities
 3. **How It Works** - Step-by-step explanation of the platform
-4. **Open-Source & SaaS Model** - Pricing and options
+4. **Pricing Plans** - Three-tier pricing model
 5. **Who It's For** - Target audiences
 6. **Integrations** - Compatible platforms and tools
 7. **Demo & Case Studies** - Interactive demo and success stories

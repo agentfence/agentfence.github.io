@@ -431,7 +431,7 @@ nav {
 
 .pricing-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-xl);
     margin-top: var(--spacing-xl);
 }
@@ -452,6 +452,8 @@ nav {
 .pricing-card.featured {
     border-color: var(--primary-color);
     position: relative;
+    transform: scale(1.05);
+    box-shadow: var(--shadow-lg);
 }
 
 .pricing-card.featured::before {
@@ -481,6 +483,11 @@ nav {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
+}
+
+.price span {
+    font-size: 1rem;
+    opacity: 0.8;
 }
 
 .card-body {
@@ -978,6 +985,14 @@ footer {
     
     .hero-image {
         width: 45%;
+    }
+    
+    .pricing-cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    .pricing-card.featured {
+        transform: translateY(-5px);
     }
     
     .contact-container {
