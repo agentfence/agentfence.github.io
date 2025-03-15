@@ -1,0 +1,36 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M25 5C25 5 10 10 10 10C10 10 10 25 10 30C10 35 17.5 40 25 45C32.5 40 40 35 40 30C40 25 40 10 40 10C40 10 25 5 25 5Z" fill="#4F46E5" />
+  
+  <!-- Shield Gradient Overlay -->
+  <path d="M25 5C25 5 10 10 10 10C10 10 10 25 10 30C10 35 17.5 40 25 45C32.5 40 40 35 40 30C40 25 40 10 40 10C40 10 25 5 25 5Z" fill="url(#shield-gradient)" />
+  
+  <!-- Shield Border -->
+  <path d="M25 5C25 5 10 10 10 10C10 10 10 25 10 30C10 35 17.5 40 25 45C32.5 40 40 35 40 30C40 25 40 10 40 10C40 10 25 5 25 5Z" stroke="#10B981" stroke-width="1.5" />
+  
+  <!-- AI Network Lines -->
+  <path d="M18 20L25 15L32 20M18 20L25 25L32 20M18 20L18 30M32 20L32 30M18 30L25 35L32 30" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Text: AgentFence -->
+  <path d="M55 30L58 20H61L64 30H61.5L60.8 28H58.2L57.5 30H55ZM58.8 26H60.2L59.5 23.5L58.8 26Z" fill="white" />
+  <path d="M65 30V20H67.5V27.5H71V30H65Z" fill="white" />
+  <path d="M72 30V20H79V22.5H74.5V23.5H78V26H74.5V27.5H79V30H72Z" fill="white" />
+  <path d="M80 30V20H82.5V24H85.5V20H88V30H85.5V26.5H82.5V30H80Z" fill="white" />
+  <path d="M89 30V20H91.5V27.5H95V30H89Z" fill="white" />
+  <path d="M100 30H97.5L94.5 20H97L99 27L101 20H103.5L100 30Z" fill="white" />
+  <path d="M104 30V20H111V22.5H106.5V23.5H110V26H106.5V27.5H111V30H104Z" fill="white" />
+  <path d="M112 30V20H114.5V24H117.5V20H120V30H117.5V26.5H114.5V30H112Z" fill="white" />
+  <path d="M121 30V20H128V22.5H123.5V23.5H127V26H123.5V27.5H128V30H121Z" fill="white" />
+  
+  <!-- Text: AI -->
+  <path d="M132 30L135 20H138L141 30H138.5L137.8 28H135.2L134.5 30H132ZM135.8 26H137.2L136.5 23.5L135.8 26Z" fill="#10B981" />
+  <path d="M142 30V20H144.5V30H142Z" fill="#10B981" />
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="shield-gradient" x1="10" y1="5" x2="40" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1" />
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+</svg> 

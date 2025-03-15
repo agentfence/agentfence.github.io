@@ -1,1 +1,473 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentFence - The AI Security & Testing Platform</title>
+    <meta name="description" content="Automatically test and secure AI agents. Functional and security testing for conversational AI, LLMs, and beyond.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="images/agentfence-logo.svg" alt="AgentFence Logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#resources">Resources</a>
+                <a href="https://github.com/agentfence" target="_blank">GitHub</a>
+            </div>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-outline">Contact</a>
+                <a href="#try" class="btn btn-primary">Try AgentFence</a>
+            </div>
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>AgentFence - The AI Security & Testing Platform</h1>
+                    <p class="subheadline">Automatically test and secure AI agents. Functional and security testing for conversational AI, LLMs, and beyond.</p>
+                    <div class="hero-cta">
+                        <a href="#try" class="btn btn-primary btn-large">Try AgentFence</a>
+                        <a href="https://github.com/agentfence" class="btn btn-secondary btn-large">Explore Open Source</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-illustration.svg" alt="AI Security Testing Illustration">
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="gradient-overlay"></div>
+                <div class="grid-pattern"></div>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Key Features</h2>
+                    <p>Comprehensive tools to secure and test your AI systems</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Automated Security Testing</h3>
+                        <p>Identify vulnerabilities in AI agents using multi-turn and single-turn probes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Functional QA for Conversational AI</h3>
+                        <p>Validate responses, detect failures, and ensure AI assistants work as intended.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3>Open-Source & Extensible</h3>
+                        <p>Built on modular components. Integrate with LangChain, OpenAI, and more.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI-powered Agent Attacks</h3>
+                        <p>Simulate real-world attacks and adversarial behavior to strengthen AI security.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>How It Works</h2>
+                    <p>Simple process, powerful results</p>
+                </div>
+                <div class="workflow">
+                    <div class="workflow-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Connect your AI agent</h3>
+                            <p>Connect your LLM, chatbot, or API to AgentFence.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Run automated tests</h3>
+                            <p>Execute security probes and functional tests.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Analyze reports and insights</h3>
+                            <p>Review comprehensive security and performance reports.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Mitigate risks and deploy safer AI</h3>
+                            <p>Implement recommendations to secure your AI systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="workflow-diagram">
+                    <img src="images/workflow-diagram.svg" alt="AgentFence Workflow Diagram">
+                </div>
+            </div>
+        </section>
+
+        <!-- Open-Source & SaaS Model Section -->
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Open-Source & SaaS Model</h2>
+                    <p>Choose the option that works best for you</p>
+                </div>
+                <div class="pricing-cards">
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h3>Open-Source</h3>
+                            <p class="price">Free</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="features-list">
+                                <li>AgentFence Probes for single-turn security testing</li>
+                                <li>Basic vulnerability detection</li>
+                                <li>Community support</li>
+                                <li>GitHub integration</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/agentfence" class="btn btn-secondary">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="card-header">
+                            <h3>SaaS Offering</h3>
+                            <p class="price">Contact for Pricing</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="features-list">
+                                <li>Multi-turn AI security testing</li>
+                                <li>Continuous monitoring</li>
+                                <li>Enterprise-grade security reports</li>
+                                <li>Advanced attack simulations</li>
+                                <li>Priority support</li>
+                                <li>Custom integrations</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#contact" class="btn btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who It's For Section -->
+        <section id="who-its-for" class="who-its-for-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Who It's For</h2>
+                    <p>AgentFence serves diverse teams working with AI</p>
+                </div>
+                <div class="audience-cards">
+                    <div class="audience-card">
+                        <div class="audience-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>AI Engineers</h3>
+                        <p>Secure your LLM-powered applications and ensure they're robust against attacks.</p>
+                    </div>
+                    <div class="audience-card">
+                        <div class="audience-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Product Teams</h3>
+                        <p>Ensure AI features work reliably and deliver consistent user experiences.</p>
+                    </div>
+                    <div class="audience-card">
+                        <div class="audience-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Security Researchers</h3>
+                        <p>Find and fix AI vulnerabilities before they can be exploited.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrations Section -->
+        <section id="integrations" class="integrations-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Integrations</h2>
+                    <p>Works seamlessly with your favorite AI tools and platforms</p>
+                </div>
+                <div class="integration-logos">
+                    <div class="logo-item">
+                        <img src="images/integrations/langchain.svg" alt="LangChain">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/integrations/openai.svg" alt="OpenAI">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/integrations/huggingface.svg" alt="Hugging Face">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/integrations/aws.svg" alt="AWS">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/integrations/gcp.svg" alt="GCP">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/integrations/azure.svg" alt="Azure">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/integrations/meta.svg" alt="Meta AI">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo & Case Studies Section -->
+        <section id="demo" class="demo-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Demo & Case Studies</h2>
+                    <p>See AgentFence in action</p>
+                </div>
+                <div class="demo-container">
+                    <div class="live-demo">
+                        <h3>Live Demo</h3>
+                        <div class="demo-interface">
+                            <div class="demo-input">
+                                <textarea placeholder="Enter a prompt to test..."></textarea>
+                                <button class="btn btn-primary">Run Security Test</button>
+                            </div>
+                            <div class="demo-results">
+                                <div class="results-placeholder">
+                                    <p>Security assessment results will appear here</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-study">
+                        <h3>Case Study</h3>
+                        <div class="case-study-card">
+                            <h4>Securing AI Customer Support</h4>
+                            <p>How AgentFence detected vulnerabilities in an AI customer support bot, preventing potential data leaks and prompt injections.</p>
+                            <a href="#" class="read-more">Read Full Case Study <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog & Resources Section -->
+        <section id="resources" class="resources-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Blog & Resources</h2>
+                    <p>Learn about AI security and testing best practices</p>
+                </div>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <div class="resource-image">
+                            <img src="images/blog/ai-security.jpg" alt="AI Security Best Practices">
+                        </div>
+                        <div class="resource-content">
+                            <h3>AI Security Best Practices</h3>
+                            <p>Essential guidelines for securing your AI systems against modern threats.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-image">
+                            <img src="images/blog/adversarial-attacks.jpg" alt="Adversarial Attacks on LLMs">
+                        </div>
+                        <div class="resource-content">
+                            <h3>How to Run Adversarial Attacks on LLMs</h3>
+                            <p>A comprehensive guide to testing your LLMs against sophisticated attacks.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-image">
+                            <img src="images/blog/ai-testing.jpg" alt="AI Testing Methodologies">
+                        </div>
+                        <div class="resource-content">
+                            <h3>AI Testing Methodologies</h3>
+                            <p>Modern approaches to ensure your AI systems are robust and reliable.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="resources-cta">
+                    <a href="#" class="btn btn-secondary">View All Resources</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community & Support Section -->
+        <section id="community" class="community-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Community & Support</h2>
+                    <p>Join our growing community of AI security enthusiasts</p>
+                </div>
+                <div class="community-links">
+                    <a href="https://github.com/agentfence" class="community-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="community-link">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord Community</span>
+                    </a>
+                    <a href="#" class="community-link">
+                        <i class="fas fa-book"></i>
+                        <span>Documentation</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions? We're here to help</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@agentfence.ai</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/agentfence" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to secure your AI systems?</h2>
+                    <p>Start testing and protecting your AI agents today.</p>
+                    <a href="#try" class="btn btn-primary btn-large">Get Started for Free</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/agentfence-logo-white.svg" alt="AgentFence Logo">
+                    <p>The AI Security & Testing Platform</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#demo">Demo</a></li>
+                            <li><a href="#integrations">Integrations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#resources">Blog</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">API Reference</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AgentFence. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/agentfence" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
