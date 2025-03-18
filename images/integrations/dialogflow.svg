@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="60" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect width="120" height="60" fill="#ffffff" />
+  
+  <!-- Dialogflow logo - stylized representation -->
+  <g transform="translate(10, 12) scale(0.42)">
+    <!-- Main hexagon shape -->
+    <path d="M119.1,0h20l60,35v30l-60,35h-20l-60-35v-30L119.1,0z" fill="#ef6c00" />
+    
+    <!-- Inner white hexagon -->
+    <path d="M119.5,10h10l50,30v20l-50,30h-10l-50-30v-20L119.5,10z" fill="#ffffff" />
+    
+    <!-- Center orange shape -->
+    <path d="M119.5,25h5l25,15v10l-25,15h-5l-25-15v-10L119.5,25z" fill="#ef6c00" />
+  </g>
+  
+  <!-- Text "Dialogflow" -->
+  <text x="60" y="48" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#455a64" text-anchor="middle">Dialogflow</text>
+</svg> 

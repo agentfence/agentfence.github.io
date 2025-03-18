@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="60" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect width="120" height="60" fill="#ffffff" />
+  
+  <!-- ServiceNow logo - green background -->
+  <rect x="15" y="10" width="90" height="30" rx="3" ry="3" fill="#81b5a1" />
+  
+  <!-- "Service" text -->
+  <text x="29" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">SERVICE</text>
+  
+  <!-- "NOW" text in the box below -->
+  <rect x="15" y="40" width="90" height="12" rx="2" ry="2" fill="#81b5a1" />
+  <text x="60" y="50" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">NOW</text>
+</svg> 

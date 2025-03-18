@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="60" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4361ee" />
+      <stop offset="100%" stop-color="#7209b7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Shield -->
+  <g transform="translate(10, 5) scale(0.5)">
+    <path d="M40,10 L80,22 C80,22 85,60 75,80 C65,100 40,100 40,100 C40,100 15,100 5,80 C-5,60 0,22 0,22 L40,10" 
+          fill="url(#logoGradient)" stroke="#4cc9f0" stroke-width="1.5" />
+    
+    <!-- Fence lines -->
+    <line x1="20" y1="40" x2="60" y2="40" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="15" y1="60" x2="65" y2="60" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="20" y1="80" x2="60" y2="80" stroke="#4cc9f0" stroke-width="2" />
+    
+    <!-- Vertical posts -->
+    <line x1="20" y1="40" x2="20" y2="80" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="40" y1="40" x2="40" y2="80" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="60" y1="40" x2="60" y2="80" stroke="#4cc9f0" stroke-width="2" />
+    
+    <!-- AI node -->
+    <circle cx="40" cy="50" r="8" fill="#f72585" />
+  </g>
+  
+  <!-- Text: AgentFence -->
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">
+    Agent<tspan fill="#4cc9f0">Fence</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="60" y="50" font-family="Arial, sans-serif" font-size="10" fill="#aaaaaa">
+    Secure AI Agent Management
+  </text>
+</svg> 

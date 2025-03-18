@@ -429,6 +429,32 @@ nav {
     background-color: var(--darker-bg);
 }
 
+.alpha-notice {
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius-md);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.alpha-notice .badge {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--border-radius-sm);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.alpha-notice p {
+    margin-bottom: 0;
+    color: var(--primary-light);
+    font-weight: 500;
+}
+
 .pricing-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -488,6 +514,19 @@ nav {
 .price span {
     font-size: 1rem;
     opacity: 0.8;
+}
+
+.price del {
+    opacity: 0.5;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.free-label {
+    display: block;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-sm);
 }
 
 .card-body {
