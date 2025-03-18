@@ -1099,4 +1099,10 @@ footer {
     .community-links {
         flex-direction: column;
     }
+}
+
+.text-logo {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #fff;
 } 

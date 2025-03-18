@@ -32,26 +32,38 @@
     .contact-info .info-item i {
         margin-right: 10px;
     }
+    .contact-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .contact-info {
+        background-color: #1a1a2e;
+        border-radius: 10px;
+        padding: 20px;
+        width: 80%;
+        max-width: 600px;
+    }
     </style>
 </head>
 <body>
     <header>
         <nav class="container">
             <div class="logo">
-                <a href="/" class="text-logo">AgentFence</a>
+                <a href="/" class="text-logo">AgentFence.AI</a>
             </div>
             <div class="nav-links">
-                <a href="#integrations">Integrations</a>
                 <a href="#features">Features</a>
                 <a href="#how-it-works">How It Works</a>
+                <a href="#integrations">Integrations</a>
                 <a href="#pricing">Pricing</a>
-                <a href="#resources">Resources</a>
-                <a href="#contact">Contact Us</a>
-                <a href="https://github.com/agentfence/agentfence" target="_blank">GitHub</a>
             </div>
             <div class="cta-buttons">
                 <a href="#contact" class="btn btn-outline">Contact</a>
                 <a href="https://app.agentfence.ai" class="btn btn-primary">Try AgentFence</a>
+                <a href="https://github.com/agentfence/agentfence" target="_blank" class="btn btn-secondary">GitHub</a>
             </div>
             <button class="mobile-menu-toggle">
                 <span></span>
@@ -83,59 +95,25 @@
             </div>
         </section>
 
-        <!-- Integrations Section -->
-        <section id="integrations" class="integrations-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Integrations</h2>
-                    <p>Works seamlessly with your favorite AI tools and platforms</p>
-                </div>
-                <div class="integration-logos">
-                    <div class="logo-item">
-                        <img src="images/integrations/Dialogflow-logo.png" alt="Dialogflow" style="height: 100px;">
-                    </div>
-                    <div class="logo-item">
-                        <img src="images/integrations/ServiceNow_logo.svg.png" alt="ServiceNow" style="height: 65px;">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Key Features Section -->
+        <!-- Features Section -->
         <section id="features" class="features-section">
             <div class="container">
                 <div class="section-header">
                     <h2>Key Features</h2>
-                    <p>Comprehensive tools to secure and test your AI systems</p>
+                    <p>Discover the powerful features that make AgentFence the best choice for AI security and testing.</p>
                 </div>
                 <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <h3>Automated Security Testing</h3>
-                        <p>Identify vulnerabilities in AI agents using multi-turn and single-turn probes.</p>
+                    <div class="feature-item">
+                        <h3>Comprehensive Testing</h3>
+                        <p>Run a wide range of tests to ensure your AI systems are secure and reliable.</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-check-circle"></i>
-                        </div>
-                        <h3>Functional QA for Conversational AI</h3>
-                        <p>Validate responses, detect failures, and ensure AI assistants work as intended.</p>
+                    <div class="feature-item">
+                        <h3>Real-time Monitoring</h3>
+                        <p>Keep track of your AI systems' performance and security in real-time.</p>
                     </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-code-branch"></i>
-                        </div>
-                        <h3>Extensible Platform</h3>
-                        <p>Built on modular components. Integrate with LangChain, OpenAI, and more.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <h3>AI-powered Agent Attacks</h3>
-                        <p>Simulate real-world attacks and adversarial behavior to strengthen AI security.</p>
+                    <div class="feature-item">
+                        <h3>Customizable Reports</h3>
+                        <p>Generate detailed reports tailored to your specific needs and requirements.</p>
                     </div>
                 </div>
             </div>
@@ -180,6 +158,24 @@
                 </div>
                 <div class="workflow-diagram">
                     <img src="images/workflow-diagram.svg" alt="AgentFence Workflow Diagram">
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrations Section -->
+        <section id="integrations" class="integrations-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Integrations</h2>
+                    <p>Works seamlessly with your favorite AI tools and platforms</p>
+                </div>
+                <div class="integration-logos">
+                    <div class="logo-item">
+                        <img src="images/integrations/Dialogflow-logo.png" alt="Dialogflow" style="height: 100px;">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/integrations/ServiceNow_logo.svg.png" alt="ServiceNow" style="height: 65px;">
+                    </div>
                 </div>
             </div>
         </section>
@@ -253,51 +249,6 @@
             </div>
         </section>
 
-        <!-- Blog & Resources Section -->
-        <section id="resources" class="resources-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Resources</h2>
-                    <p>Learn about AI security and testing best practices</p>
-                </div>
-                <div class="resources-grid">
-                    <div class="resource-card">
-                        <div class="resource-image">
-                            <img src="images/blog/ai-security.jpg" alt="AI Security Best Practices">
-                        </div>
-                        <div class="resource-content">
-                            <h3>AI Security Best Practices</h3>
-                            <p>Essential guidelines for securing your AI systems against modern threats.</p>
-                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="resource-card">
-                        <div class="resource-image">
-                            <img src="images/blog/adversarial-attacks.jpg" alt="Adversarial Attacks on LLMs">
-                        </div>
-                        <div class="resource-content">
-                            <h3>How to Run Adversarial Attacks on LLMs</h3>
-                            <p>A comprehensive guide to testing your LLMs against sophisticated attacks.</p>
-                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="resource-card">
-                        <div class="resource-image">
-                            <img src="images/blog/ai-testing.jpg" alt="AI Testing Methodologies">
-                        </div>
-                        <div class="resource-content">
-                            <h3>AI Testing Methodologies</h3>
-                            <p>Modern approaches to ensure your AI systems are robust and reliable.</p>
-                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="resources-cta">
-                    <a href="#" class="btn btn-secondary">View All Resources</a>
-                </div>
-            </div>
-        </section>
-
         <!-- Contact Section -->
         <section id="contact" class="contact-section">
             <div class="container">
@@ -308,7 +259,7 @@
                 <div class="contact-info">
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
-                        <p>info@agentfence.ai</p>
+                        <p style="margin-top: 10px;">info@agentfence.ai</p>
                     </div>
                 </div>
             </div>
